@@ -1,0 +1,99 @@
+/* Estilos generales para los componentes */
+
+.home{
+    background-color: #e1edfa;
+}
+
+/*Componente 1*/
+
+.componente1 {
+    background-color: #a9cce8;
+    color: #426382;
+    width: auto;
+    height: 120px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid #9dafbf;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Componente 2*/
+
+.componente2 {
+    width: 100%;
+    height: calc(100vh - 122px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.componente2-1 {
+    background-color: #80b1d9;
+    width: 95%;
+    height: 90%;
+    border: 1px solid #9dafbf;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+}
+
+.componente2-2 {
+    position: relative;
+    top: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 50%;
+}
+
+.componente2-3 {
+    color: #426382;
+    position: relative;
+    top: 5%;
+}
+
+/*Componente 3*/
+
+
+/*Card*/
+
+.card {
+    background-color: #ffffff;
+    border: 2px solid #83a7c7;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 18%;
+    height: 120%;
+    overflow: hidden;
+}
+
+.card-a {
+    background-color: #e4edf7;
+    border-bottom: 1px solid #b4bac2;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-b {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
